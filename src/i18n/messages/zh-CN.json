@@ -1,0 +1,296 @@
+{
+  "about": {
+    "description": "嗨！我是 Nelson Lai，一位热爱网页开发的学生，使用 HTML、CSS 和 JavaScript 创作创新项目。探索我的作品集、技能与开发历程，一起探索数字世界吧！"
+  },
+  "account": {
+    "account-created": "账户创建时间",
+    "active-sessions": "活跃会话",
+    "avatar": "头像",
+    "description": "管理您的账户。",
+    "display-name": "显示名称",
+    "edit-name": "编辑名称",
+    "edit-name-description": "更改您的显示名称。此名称将显示在您的个人资料和评论中。",
+    "email": "邮箱",
+    "no-active-sessions": "没有活动会话",
+    "open-navigation-menu": "打开导航菜单",
+    "profile": "个人资料",
+    "revoke-session": "结束",
+    "this-device": "此设备",
+    "update-avatar": "更新头像"
+  },
+  "admin": {
+    "page-header": {
+      "comments": {
+        "description": "管理评论"
+      },
+      "users": {
+        "description": "管理用户"
+      }
+    },
+    "toggle-sidebar": "切换侧边栏"
+  },
+  "blog": {
+    "comments": {
+      "author": "作者",
+      "comments": "{count, plural, =1 {评论} other {评论}}",
+      "copy-link": "复制链接",
+      "dislike": "倒赞",
+      "highlighted-comment": "已标注评论",
+      "newest": "最新",
+      "no-comments": "没有评论",
+      "oldest": "最旧",
+      "open-menu": "开启选单",
+      "placeholder": "留下评论",
+      "preview": "预览",
+      "replies": "{count, plural, =1 {回复} other {回复}}",
+      "reply": "回复",
+      "reply-to-comment": "回复评论",
+      "send-comment": "送出评论",
+      "sort-by": "排序方式",
+      "this-comment-has-been-deleted": "[此评论已被删除]",
+      "toggle-bold": "切换粗体",
+      "toggle-italic": "切换斜体",
+      "toggle-strikethrough": "切换删除线",
+      "write": "撰写"
+    },
+    "description": "欢迎来到我的网站和博客！作为香港的全端工程师，我从 2020 年 12 月起自学网页开发，分享教学、笔记与生活点滴。探索我的旅程！",
+    "footer": {
+      "edit-on-github": "在 GitHub 上编辑",
+      "last-updated": "最后更新日期：{date}"
+    },
+    "header": {
+      "published-on": "发布日期",
+      "views": "浏览次数",
+      "written-by": "撰写者"
+    },
+    "like-this-post": "喜欢这个文章",
+    "on-this-page": "目录"
+  },
+  "command-menu": {
+    "actions": {
+      "copy-link": "复制链接",
+      "source-code": "源代码"
+    },
+    "groups": {
+      "social": "社群"
+    },
+    "no-results": "没有找到结果。",
+    "open-menu": "开启指令选单",
+    "placeholder": "输入指令或搜寻"
+  },
+  "common": {
+    "avatar-alt": "{name} 的头像",
+    "cancel": "取消",
+    "delete": "删除",
+    "dialogs": {
+      "delete-comment": {
+        "description": "您确定要删除此评论吗？此操作无法撤销。",
+        "title": "删除评论"
+      }
+    },
+    "error": "错误",
+    "loading": "加载中...",
+    "labels": {
+      "about": "关于",
+      "account": "账户",
+      "blog": "博客",
+      "comment": "评论",
+      "comments": "评论",
+      "dashboard": "仪表板",
+      "design": "设计",
+      "facebook": "Facebook",
+      "general": "一般",
+      "github": "GitHub",
+      "guestbook": "留言板",
+      "home": "首页",
+      "instagram": "Instagram",
+      "links": "链接",
+      "privacy": "隐私权政策",
+      "projects": "项目",
+      "settings": "设定",
+      "terms": "服务条款",
+      "unsubscribe": "取消订阅",
+      "users": "用户",
+      "uses": "装备",
+      "youtube": "YouTube"
+    },
+    "like": "赞",
+    "likes": "{count, plural, =1 {# 点赞} other {# 点赞}}",
+    "save": "保存",
+    "reset": "重设",
+    "sign-in": "登入",
+    "sign-out": "登出",
+    "unknown": "未知",
+    "views": "{count, plural, =1 {# 浏览次数} other {# 浏览次数}}"
+  },
+  "components": {
+    "filtered-posts": {
+      "no-posts-found": "没有找到文章",
+      "placeholder": "搜寻文章"
+    },
+    "go-to-homepage": "回到首页"
+  },
+  "dashboard": {
+    "description": "这是我的个人仪表板，使用 Next.js API 路由建立，并部署为 serverless functions。我使用这个仪表板追踪 YouTube、GitHub 等平台的各种统计。",
+    "stat": {
+      "blog-total-likes": "博客总点赞数",
+      "blog-total-views": "博客总浏览量",
+      "coding-hours": "编程时间",
+      "github-followers": "GitHub 关注者",
+      "github-stars": "GitHub 星数",
+      "youtube-subscribers": "YouTube 订阅者",
+      "youtube-views": "YouTube 浏览量"
+    }
+  },
+  "design": {
+    "description": "探索本网站使用的设计系统和 UI 组件。查看组件变体、样式和实现示例。"
+  },
+  "dialog": {
+    "sign-in": {
+      "continue-with": "使用 {provider} 继续",
+      "description": "以继续使用 nelsonlai.dev",
+      "last-used": "上次使用",
+      "notice": "继续即表示您同意我们的 <terms>服务条款</terms> 和 <privacy>隐私权政策</privacy>"
+    }
+  },
+  "error": {
+    "avatar-too-large": "头像文件过大。请选择小于 {size} MB 的文件。",
+    "avatar-unsupported-file": "请选择支持的图片格式（JPEG、PNG、WEBP、GIF、AVIF）。",
+    "comment-cannot-be-empty": "评论不能为空",
+    "copy-to-clipboard-error": "无法复制到剪贴板，请再试一次。",
+    "failed-to-fetch-comments-data": "无法获取评论数据。请刷新页面。",
+    "failed-to-fetch-users-data": "无法获取用户数据。请刷新页面。",
+    "failed-to-load-comments": "无法载入评论。请刷新页面。",
+    "failed-to-load-messages": "无法载入留言。请刷新页面。",
+    "failed-to-load-replies": "无法载入回复。请刷新页面。",
+    "failed-to-load-settings": "无法载入设定。请刷新页面。",
+    "like-limit-reached": "您只能对每篇文章点赞 3 次",
+    "message-cannot-be-empty": "留言不能为空",
+    "name-cannot-be-empty": "名称不能为空",
+    "name-too-long": "名称过长",
+    "need-logged-in-to-vote": "您必须登入才能投票评论",
+    "not-found": "找不到页面。",
+    "now-playing-error": "无法获取 Spotify 资料",
+    "reply-cannot-be-empty": "回复不能为空",
+    "sign-in-error": "登入失败。请再试一次。",
+    "sign-out-failed": "登出失败，请再试一次。",
+    "something-went-wrong": "发生了一些问题，请再试一次。",
+    "update-avatar-failed": "更新头像失败，请再试一次。",
+    "try-again": "再试一次"
+  },
+  "guestbook": {
+    "description": "在我的留言板上留下您的想法。您可以在这里告诉我任何事情！",
+    "no-messages": "没有留言，快来成为第一位留言者！",
+    "pinned": {
+      "description": "感谢您造访我的网站。如果您有时间，我很乐意听取您对我作品的看法。请使用您的账户登入以留下评论。谢谢！",
+      "greeting": "嗨！ 👋"
+    },
+    "placeholder": "留言",
+    "signin": {
+      "description": "以留下评论"
+    },
+    "submit": "送出"
+  },
+  "homepage": {
+    "about-me": {
+      "coding-hours": "编程时间",
+      "connect": "联系",
+      "fav-framework": "最爱框架",
+      "location": "香港",
+      "more": "进一步了解我",
+      "stacks": "技术栈",
+      "title": "关于我"
+    },
+    "get-in-touch": {
+      "description": "随时联络我！",
+      "image-alt": "Nelson Lai 的标志",
+      "title": "有关 Next.js 的任何问题？"
+    },
+    "hero": {
+      "amazing": "精彩绝伦",
+      "attractive": "引人入胜",
+      "fantastic": "极致出色",
+      "location-timezone": "香港 • UTC/GMT +8",
+      "stunning": "惊艳非凡",
+      "title-bottom": "并使用 React 开发",
+      "title-middle-left": "制作",
+      "title-middle-right": "的网站",
+      "title-top": "我是 Nelson，一位全栈工程师"
+    },
+    "latest-articles": {
+      "card": "文章",
+      "more": "查看所有文章",
+      "title": "最新文章"
+    },
+    "selected-projects": {
+      "card": "项目",
+      "more": "查看所有项目",
+      "title": "精选项目"
+    }
+  },
+  "layout": {
+    "change-language": "更改语言",
+    "now-playing": {
+      "loading": "载入中...",
+      "not-listening": "未在收听 - Spotify"
+    },
+    "skip-to-main-content": "跳至主要内容",
+    "toggle-menu": "打开选单"
+  },
+  "mdx": {
+    "link-to-section": "连结至章节"
+  },
+  "metadata": {
+    "site-description": "Nelson Lai 是一位居住于香港的全栈工程师。他使用 React、Node.js 和现代技术构建高效且优雅的网站。"
+  },
+  "privacy": {
+    "description": "此页面说明当您使用我们的网站时，我们如何处理您的数据并保护您的隐私。"
+  },
+  "projects": {
+    "description": "我的项目集，每个都倾注了心血制作。",
+    "visit-website": "前往网站"
+  },
+  "settings": {
+    "description": "管理您的设定。",
+    "notification-settings": "通知设定",
+    "reply-notification": "回复通知",
+    "reply-notification-description": "当有人回复您的评论时，接收电子邮件通知。"
+  },
+  "success": {
+    "avatar-updated": "头像更新成功",
+    "comment-deleted": "已删除评论",
+    "comment-posted": "评论已发布",
+    "copied-to-clipboard": "已复制到剪贴板",
+    "link-copied": "链接已复制到剪贴板",
+    "message-created": "成功发布留言",
+    "message-deleted": "成功删除留言",
+    "name-updated": "成功编辑名称",
+    "reply-posted": "回复已发布",
+    "session-revoked": "会话已成功结束",
+    "settings-updated": "设定更新成功",
+    "signed-out": "成功登出"
+  },
+  "terms": {
+    "description": "这些条款和条件概述了使用我们网站的规则和规定。"
+  },
+  "theme-toggle": {
+    "options": {
+      "dark": "深色",
+      "light": "浅色",
+      "system": "系统"
+    },
+    "toggle-theme": "切换主题"
+  },
+  "unsubscribe": {
+    "invalid-link-description": "取消订阅链接无效。请再试一次。",
+    "invalid-unsubscribe-link": "无效的取消订阅链接",
+    "stop-receiving-email-notifications": "停止接收此评论回复的电子邮件通知",
+    "unsubscribe-from-this-comment": "取消订阅此评论",
+    "unsubscribed-description": "您将不再收到此评论的回复通知电子邮件。",
+    "you-are-unsubscribing-as": "您正以 {email} 的身份取消订阅",
+    "you-have-been-unsubscribed": "您已取消订阅"
+  },
+  "uses": {
+    "description": "这是我目前用来玩游戏、程序设计、制作视频和日常使用的装备。"
+  }
+}
