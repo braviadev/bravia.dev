@@ -16,7 +16,7 @@ function BlogFooter(props: BlogFooterProps) {
   const t = useTranslations()
   const locale = useLocale()
 
-  const editURL = `https://github.com/Braviadprogrammer/bravia.dev/tree/main/src/content/blog/${locale}/${post.slug}.mdx?plain=1`
+  const editURL = `https://github.com/bravia/bravia.dev/tree/main/src/content/blog/${locale}/${post.slug}.mdx?plain=1`
 
   const formattedDate = useFormattedDate(post.modifiedTime)
 
