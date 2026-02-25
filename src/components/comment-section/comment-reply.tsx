@@ -22,7 +22,7 @@ function CommentReply() {
 
   const { mutate: createReply, isPending: isCreating } = useCreatePostComment({ slug }, () => {
     setIsReplying(false)
-    toast.success(t('success.reply-posted'), { testId: 'comment-reply-posted-toast' })
+    toast.success(t('success.reply-posted'))
   })
 
   function submitCommentReply(e?: React.SubmitEvent<HTMLFormElement>) {

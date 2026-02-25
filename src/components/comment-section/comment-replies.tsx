@@ -33,7 +33,7 @@ function CommentReplies() {
   const { ref, inView } = useInView()
 
   useEffect(() => {
-    if (inView && hasNextPage) void fetchNextPage()
+    if (inView && hasNextPage) fetchNextPage()
   }, [fetchNextPage, hasNextPage, inView])
 
   useEffect(() => {

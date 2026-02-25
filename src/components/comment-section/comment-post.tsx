@@ -24,7 +24,7 @@ function CommentPost() {
 
   const { mutate: createComment, isPending: isCreating } = useCreatePostComment({ slug }, () => {
     setContent('')
-    toast.success(t('success.comment-posted'), { testId: 'comment-posted-toast' })
+    toast.success(t('success.comment-posted'))
     setTabsValue('write')
   })
 
