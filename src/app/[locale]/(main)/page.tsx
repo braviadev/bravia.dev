@@ -62,7 +62,7 @@ function Page(props: PageProps<'/[locale]'>) {
       sameAs: [SITE_FACEBOOK_URL, SITE_INSTAGRAM_URL, SITE_X_URL, SITE_GITHUB_URL, SITE_YOUTUBE_URL],
     },
     copyrightYear: new Date().getFullYear(),
-    dateCreated: '2022-02-01T00:00:00Z',
+    dateCreated: '2026-02-01T00:00:00Z',
     dateModified: new Date().toISOString(),
     inLanguage: locale,
   }
