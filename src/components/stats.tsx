@@ -40,7 +40,7 @@ function Stats() {
   const data: Card[] = [
     {
       title: t('dashboard.stat.coding-hours'),
-      link: 'https://wakatime.com/@nelsonlaidev',
+      link: 'https://wakatime.com/@braviadev',
       value: wakatimeQuery.data?.hours,
       icon: <SiWakatime className='text-[#0061ff]' />,
       linkText: 'WakaTime',
@@ -52,7 +52,7 @@ function Stats() {
     },
     {
       title: t('dashboard.stat.youtube-subscribers'),
-      link: 'https://www.youtube.com/@nelsonlaidev',
+      link: 'https://www.youtube.com/@braviadev',
       value: youtubeQuery.data?.subscribers,
       icon: <SiYoutube className='text-[#ff0000]' />,
       linkText: 'YouTube',
@@ -63,7 +63,7 @@ function Stats() {
     },
     {
       title: t('dashboard.stat.youtube-views'),
-      link: 'https://www.youtube.com/@nelsonlaidev',
+      link: 'https://www.youtube.com/@braviadev',
       value: youtubeQuery.data?.views,
       icon: <SiYoutube className='text-[#ff0000]' />,
       linkText: 'YouTube',
@@ -74,7 +74,7 @@ function Stats() {
     },
     {
       title: t('dashboard.stat.github-followers'),
-      link: 'https://github.com/nelsonlaidev',
+      link: 'https://github.com/braviadev',
       value: githubQuery.data?.followers,
       icon: <SiGithub className='text-[#fee000]' />,
       linkText: 'GitHub',
@@ -85,7 +85,7 @@ function Stats() {
     },
     {
       title: t('dashboard.stat.github-stars'),
-      link: 'https://github.com/nelsonlaidev',
+      link: 'https://github.com/braviadev',
       value: githubQuery.data?.stars,
       icon: <StarIcon className='size-6 text-[#fee000]' />,
       linkText: 'GitHub',
@@ -107,7 +107,7 @@ function Stats() {
     },
     {
       title: t('dashboard.stat.blog-total-likes'),
-      link: 'https://nelsonlai.dev',
+      link: 'https://bravía.com',
       value: likesQuery.data?.likes,
       icon: <PencilIcon className='size-6 text-[#ff0f7b]' />,
       linkText: 'Blog',
