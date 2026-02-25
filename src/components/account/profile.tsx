@@ -123,12 +123,12 @@ function EditName(props: EditNameProps) {
   const { mutate: updateUser, isPending: isUpdating } = useUpdateUser(() => {
     setOpen(false)
     toast.success(t('success.name-updated'))
-    void refetchSession()
+    refetchSession()
   })
 
   function handleSubmit(event: React.SubmitEvent<HTMLFormElement>) {
     event.preventDefault()
-    void form.handleSubmit()
+    form.handleSubmit()
   }
 
   return (
@@ -187,7 +187,7 @@ function UpdateAvatar() {
   const { mutateAsync: getAvatarUploadUrl } = useGetAvatarUploadUrl()
   const { mutateAsync: updateUser } = useUpdateUser(() => {
     toast.success(t('success.avatar-updated'))
-    void refetchSession()
+    refetchSession()
   })
 
   function handleSelectFile() {
