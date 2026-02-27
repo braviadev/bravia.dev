@@ -3,17 +3,17 @@ version: '3'
 services:
   db:
     image: postgres:16-alpine
-    container_name: nelsonlaidev-postgres
+    container_name: braviadev-postgres
     ports:
       - 5432:5432
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=nelsonlaidev
+      - POSTGRES_DB=braviadevdev
     volumes:
       - db:/var/lib/postgresql/data
     networks:
-      - nelsonlaidev-network
+      - braviadev-network
   redis:
     image: redis
     container_name: nelsonlaidev-redis
@@ -22,19 +22,19 @@ services:
     volumes:
       - redis:/data
     networks:
-      - nelsonlaidev-network
+      - braviadev-network
 
   serverless-redis-http:
     image: hiett/serverless-redis-http:latest
-    container_name: nelsonlaidev-redis-http
+    container_name: braviadev-redis-http
     ports:
       - 8079:80
     environment:
       SRH_MODE: env
-      SRH_TOKEN: nelsonlaidev
+      SRH_TOKEN: braviadev
       SRH_CONNECTION_STRING: redis://redis:6379
     networks:
-      - nelsonlaidev-network
+      - braviadev-network
     depends_on:
       - redis
 
@@ -43,5 +43,5 @@ volumes:
   redis:
 
 networks:
-  nelsonlaidev-network:
+  braviadev-network:
     driver: bridge
