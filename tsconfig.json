@@ -7,7 +7,7 @@
       "content-collections": ["./.content-collections/generated"]
     }
   },
-  "extends": "@nelsonlaidev/typescript-config/nextjs.json",
+  "extends": "@bravia/typescript-config/nextjs.json",
   "exclude": ["node_modules"],
   "include": [
     "**/*.ts",
