@@ -1,4 +1,4 @@
-import { defineConfig, GLOB_SRC_EXT } from '@nelsonlaidev/eslint-config'
+import { defineConfig, GLOB_SRC_EXT } from '@braviadev/eslint-config'
 
 export default defineConfig(
   {
