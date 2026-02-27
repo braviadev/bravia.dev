@@ -96,7 +96,7 @@ function Stats() {
     },
     {
       title: t('dashboard.stat.blog-total-views'),
-      link: 'https://nelsonlai.dev',
+      link: 'https://bravía.com',
       value: viewsQuery.data?.views,
       icon: <PencilIcon className='size-6 text-[#ff0f7b]' />,
       linkText: 'Blog',
