@@ -16,7 +16,7 @@ services:
       - braviadev-network
   redis:
     image: redis
-    container_name: nelsonlaidev-redis
+    container_name: braviadev-redis
     ports:
       - 6379:6379
     volumes:
