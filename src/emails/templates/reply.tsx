@@ -83,7 +83,7 @@ function ReplyEmailTemplate(props: ReplyEmailTemplateProps) {
             <Text className='text-xs text-gray-500'>
               You received this because you enabled notifications for replies to your comments. If you wish to stop
               receiving these emails, please update your{' '}
-              <Link href='https://nelsonlai.dev/account/settings'>account settings</Link>. To stop receiving reply
+              <Link href='https://bravía.com/account/settings'>account settings</Link>. To stop receiving reply
               notifications for this specific comment, you can <Link href={unsubscribeUrl}>unsubscribe</Link>.
             </Text>
             <Footer />
