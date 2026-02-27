@@ -59,7 +59,7 @@ function SidebarBasic() {
                 NL
               </div>
               <div className='flex flex-col leading-tight'>
-                <span className='text-sm font-semibold'>Nelson Labs</span>
+                <span className='text-sm font-semibold'>Bravia Labs</span>
                 <span className='text-xs text-muted-foreground'>Design team</span>
               </div>
             </div>
