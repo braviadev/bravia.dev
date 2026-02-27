@@ -53,7 +53,7 @@
       "toggle-strikethrough": "Toggle strikethrough",
       "write": "Write"
     },
-    "description": "Discover my website and blog, where I share tutorials, notes, and experiences as a full-stack engineer based in Hong Kong. I began web dev as a hobby in Dec 2020. Explore my journey!",
+    "description": "Discover my website and blog, where I share tutorials, notes, and experiences as a full-stack develor based in Kwara State. I began web dev as a hobby in Dec 2026. Explore my journey!",
     "footer": {
       "edit-on-github": "Edit on GitHub",
       "last-updated": "Last updated: {date}"
@@ -148,7 +148,7 @@
   "dialog": {
     "sign-in": {
       "continue-with": "Continue with {provider}",
-      "description": "to continue to bravía.com",
+      "description": "to continue to bravia.com",
       "last-used": "Last used",
       "notice": "By continuing, you agree to our <terms>Terms of Service</terms> and <privacy>Privacy Policy</privacy>"
     }
@@ -196,7 +196,7 @@
       "coding-hours": "Coding hours",
       "connect": "Connect",
       "fav-framework": "Fav. framework",
-      "location": "Hong Kong",
+      "location": "Kwara State",
       "more": "Know more about me",
       "stacks": "Stacks",
       "title": "About Me"
@@ -210,7 +210,7 @@
       "amazing": "Amazing",
       "attractive": "Attractive",
       "fantastic": "Fantastic",
-      "location-timezone": "Hong Kong • UTC/GMT +8",
+      "location-timezone": "Kwara State • UTC/GMT +1",
       "stunning": "Stunning",
       "title-bottom": "React",
       "title-middle-left": "building",
