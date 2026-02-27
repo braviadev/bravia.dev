@@ -35,7 +35,7 @@ function LayoutFooter() {
       <div className='mt-20 flex flex-col gap-4'>
         <LocaleSwitcher />
         <div className='flex items-center justify-between text-sm'>
-          <div>&copy; {new Date().getFullYear()} Nelson Lai</div>
+          <div>&copy; {new Date().getFullYear()} Olanrewaju Toyyib</div>
           <Link
             href='https://braviadev.link/s/github-portfolio'
             className='flex items-center justify-center overflow-hidden rounded-4xl border'
