@@ -11,7 +11,7 @@ export const MY_NAME = 'Olanrewaju Toyyib'
 
 export const SITE_GITHUB_URL = 'https://github.com/braviadev'
 export const SITE_FACEBOOK_URL = 'https://www.facebook.com/olanrewajutoyyiib'
-export const SITE_INSTAGRAM_URL = 'https://www.instagram.com/olanrewajutoyyiib'
+export const SITE_INSTAGRAM_URL = 'https://www.instagram.com/bravia.ot'
 export const SITE_X_URL = 'https://x.com/O_Toyyib'
 export const SITE_YOUTUBE_URL = 'https://youtube.com/@olanrewajutoyyib'
 
