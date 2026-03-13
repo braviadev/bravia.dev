@@ -6,7 +6,6 @@ import { headers } from 'next/headers'
 
 import { db } from '@/db'
 import { env } from '@/lib/env'
-import { getBaseUrl } from '@/utils/get-base-url'
 
 function getSocialProviders(): SocialProviders {
   const providers: SocialProviders = {}
@@ -29,16 +28,29 @@ function getSocialProviders(): SocialProviders {
 }
 
 export const auth = betterAuth({
-  baseURL: getBaseUrl(),
+  baseURL: process.env.NEXT_PUBLIC_SITE_URL,
+
   database: drizzleAdapter(db, {
     provider: 'pg',
     usePlural: true,
   }),
-  trustedOrigins: [getBaseUrl()],
+
+  trustedOrigins: [
+    process.env.NEXT_PUBLIC_SITE_URL!,
+    "https://xn--brava-2sa.com",
+    "https://www.xn--brava-2sa.com"
+  ],
+
   socialProviders: getSocialProviders(),
+
   user: {
     additionalFields: {
-      role: { type: 'string', required: true, input: false, defaultValue: 'user' },
+      role: {
+        type: 'string',
+        required: true,
+        input: false,
+        defaultValue: 'user',
+      },
     },
   },
 })
