@@ -148,7 +148,7 @@
   "dialog": {
     "sign-in": {
       "continue-with": "Continue with {provider}",
-      "description": "to continue to bravia.com",
+      "description": "to continue to bravía.com",
       "last-used": "Last used",
       "notice": "By continuing, you agree to our <terms>Terms of Service</terms> and <privacy>Privacy Policy</privacy>"
     }
