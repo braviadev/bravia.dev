@@ -21,7 +21,7 @@ function CommentList() {
   const { slug, sort } = useCommentsContext()
   const [params] = useCommentParams()
   const t = useTranslations()
-  const [highlighter, setHighlighter] = useHighlighter()
+  const { highlighter, initHighlighter: setHighlighter } = useHighlighter()
 
   const { data, isSuccess, isLoading, isError, fetchNextPage, hasNextPage, isFetchingNextPage } = useListComments(
     (pageParam) => ({
