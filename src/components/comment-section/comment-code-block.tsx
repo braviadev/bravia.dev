@@ -21,7 +21,7 @@ function CommentCodeBlock(props: CommentCodeBlockProps) {
     },
   } = props
   const lang = className?.replace('lang-', '') ?? 'plaintext'
-  const [highlighter] = useHighlighter()
+  const { highlighter } = useHighlighter()
   const [highlightedHtml, setHighlightedHtml] = useState('')
   const [isHighlighted, setIsHighlighted] = useState(false)
 
