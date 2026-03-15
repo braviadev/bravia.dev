@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://bravia.dev">
+  <a href="https://bravía.com">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="public/images/dark-header.png">
       <img alt="Project Cover" src="public/images/light-header.png">
@@ -7,12 +7,12 @@
   </a>
 
   <h1 align="center">
-    bravia.dev
+    bravía.com
   </h1>
 
   <img src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=Next.js&labelColor=000" alt="Framework" />
-  <img src="https://img.shields.io/github/languages/top/braviadev/bravía.com?style=for-the-badge&labelColor=000" alt="Language" />
-  <img src="https://img.shields.io/github/license/braviadev/bravía.com?style=for-the-badge&labelColor=000" alt="License" />
+  <img src="https://img.shields.io/github/languages/top/braviadev/bravia.dev?style=for-the-badge&labelColor=000" alt="Language" />
+  <img src="https://img.shields.io/github/license/braviadev/bravia.dev?style=for-the-badge&labelColor=000" alt="License" />
 </div>
 
 Welcome to my personal blog and portfolio website! This repository contains a modern Next.js application where I share my thoughts, projects, and insights.
@@ -97,7 +97,7 @@ Welcome to my personal blog and portfolio website! This repository contains a mo
 ## Project Structure
 
 ```
-bravía.com/
+bravia.dev/
 ├── public/           # Static assets (images, fonts, videos)
 ├── src/
 │   ├── app/          # Next.js app router pages
@@ -125,13 +125,13 @@ To run this project locally, you need to set up the development environment.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/braviadev/bravía.com
+git clone https://github.com/braviadev/bravia.dev
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd bravía.com
+cd bravia.dev
 ```
 
 3. Install dependencies using pnpm:
