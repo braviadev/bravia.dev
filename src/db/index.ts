@@ -10,18 +10,18 @@ declare global {
   var pgClient: ReturnType<typeof postgres> | undefined
 }
 
-let client: ReturnType<typeof postgres>
-
-const connectionConfig = {
-  max: 1, // important: limit connections
+const connectionOptions = {
+  max: 1,              // VERY important
   idle_timeout: 20,
-  connect_timeout: 10
+  connect_timeout: 10,
 }
 
+let client: ReturnType<typeof postgres>
+
 if (IS_PRODUCTION) {
-  client = postgres(env.DATABASE_URL, connectionConfig)
+  client = postgres(env.DATABASE_URL, connectionOptions)
 } else {
-  globalThis.pgClient ??= postgres(env.DATABASE_URL, connectionConfig)
+  globalThis.pgClient ??= postgres(env.DATABASE_URL, connectionOptions)
   client = globalThis.pgClient
 }
 
